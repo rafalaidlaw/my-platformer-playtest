@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "rom": "rom/kotachomp-dx.gbc",
+  "project": {
+    "name": "Kota Chomp DX",
+    "author": "Rafael"
+  },
+  "colorCorrection": "none",
+  "customControls": {
+    "up": [
+      "ArrowUp",
+      "w"
+    ],
+    "down": [
+      "ArrowDown",
+      "s"
+    ],
+    "left": [
+      "ArrowLeft",
+      "a"
+    ],
+    "right": [
+      "ArrowRight",
+      "d"
+    ],
+    "a": [
+      "Alt",
+      "z",
+      "j"
+    ],
+    "b": [
+      "Control",
+      "k",
+      "x"
+    ],
+    "start": [
+      "Enter"
+    ],
+    "select": [
+      "Shift"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- Kota Chomp DX's own playtest page. Hand-written and NOT generated: the platformer's
+     tools/publish-playtest.mjs rewrites index.html whole on every publish, so this page,
+     kotachomp-dx.gbc and kotachomp/ are kept out of its way and survive it. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Kota Chomp DX playtest</title>
+    <style>
+      /* The game's own GBC palette (tools/gb_vars.json project.palette) */
+      :root {
+        --black: #233933;
+        --dark: #ac3232;
+        --light: #e6b95a;
+        --white: #d5d8d1;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        background: var(--black);
+        color: var(--white);
+        font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main { width: 100%; max-width: 28rem; padding: 2.5rem 16px; }
+      h1 { margin: 0; font-size: 1.75rem; line-height: 1.2; }
+      .build {
+        margin: 0.25rem 0 1.5rem;
+        color: var(--light);
+        font: 0.9rem/1.4 ui-monospace, Menlo, Consolas, monospace;
+      }
+      .note {
+        margin: 0 0 1.5rem;
+        padding: 0.75rem 1rem;
+        border-left: 4px solid var(--dark);
+        background: rgb(255 255 255 / 0.06);
+      }
+      .btn {
+        display: block;
+        margin-bottom: 0.75rem;
+        padding: 1rem;
+        border: 2px solid var(--light);
+        border-radius: 0.75rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+      }
+      .primary { background: var(--light); color: var(--black); }
+      .secondary { color: var(--light); }
+      .btn:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; }
+      .help { margin: 1.5rem 0 0; font-size: 0.9rem; color: rgb(213 216 209 / 0.75); }
+      .help a { color: var(--light); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Kota Chomp DX</h1>
+      <p class="build">Build b7b6e76 &middot; 11 Nov 2026, 12:57</p>
+      <p class="note">GB-C-V3, the cover-collapse build. Newest: the head rides its own jump arc backwards when a bounce or a barf pushes it back, vertical arcs included.</p>
+      <a class="btn primary" href="kotachomp/">Play in browser</a>
+      <a class="btn secondary" href="kotachomp-dx.gbc?v=b7b6e76" download="kotachomp-dx-b7b6e76.gbc">Download .gbc</a>
+      <p class="help">
+        The browser player has on-screen touch controls. The downloaded ROM opens in any
+        Game Boy Color emulator, such as Delta on iPhone or Pizza Boy GBC on Android.
+      </p>
+      <p class="help">
+        GitHub Pages can serve cached files for up to 10 minutes. If the build above isn't the
+        one you just published, wait a moment and reload. <a href="./">My Platformer is here.</a>
+      </p>
+    </main>
+  </body>
+</html>
