@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- Template for the playtest download page. tools/publish-playtest.mjs fills
+     in the {{PLACEHOLDERS}} and writes the result to the site repo's index.html. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>My Platformer playtest</title>
+    <style>
+      /* The game's own GBC palette (Project Settings > custom colours) */
+      :root {
+        --black: #202850;
+        --dark: #509878;
+        --light: #b0f088;
+        --white: #e8f8e0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        background: var(--black);
+        color: var(--white);
+        font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main { width: 100%; max-width: 28rem; padding: 2.5rem 16px; }
+      h1 { margin: 0; font-size: 1.75rem; line-height: 1.2; }
+      .build {
+        margin: 0.25rem 0 1.5rem;
+        color: var(--light);
+        font: 0.9rem/1.4 ui-monospace, Menlo, Consolas, monospace;
+      }
+      .note {
+        margin: 0 0 1.5rem;
+        padding: 0.75rem 1rem;
+        border-left: 4px solid var(--dark);
+        background: rgb(255 255 255 / 0.06);
+      }
+      .btn {
+        display: block;
+        margin-bottom: 0.75rem;
+        padding: 1rem;
+        border: 2px solid var(--light);
+        border-radius: 0.75rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+      }
+      .primary { background: var(--light); color: var(--black); }
+      .secondary { color: var(--light); }
+      .btn:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; }
+      .help { margin: 1.5rem 0 0; font-size: 0.9rem; color: rgb(232 248 224 / 0.75); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>My Platformer</h1>
+      <p class="build">Build 4e910ef · 11 Nov 2026, 11:36</p>
+      <p class="note">First playtest build: unchanged LBaP! game, renamed</p>
+      <a class="btn primary" href="play/">Play in browser</a>
+      <a class="btn secondary" href="my-platformer.gbc?v=4e910ef" download="my-platformer-4e910ef.gbc">Download .gbc</a>
+      <p class="help">
+        The browser player has on-screen touch controls. The downloaded ROM opens in any
+        Game Boy Color emulator, such as Delta on iPhone or Pizza Boy GBC on Android.
+      </p>
+      <p class="help">
+        GitHub Pages can serve cached files for up to 10 minutes. If the build number above
+        isn't the one you just published, wait a moment and reload.
+      </p>
+    </main>
+  </body>
+</html>
