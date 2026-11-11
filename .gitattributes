@@ -1,3 +1,4 @@
+* text=auto eol=lf
 *.gbc binary
 *.gb binary
 *.wasm binary
