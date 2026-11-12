@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-12T10:00:56.724Z",
+  "updated": "2026-11-12T10:02:13.594Z",
   "games": [
     {
       "slug": "my-platformer",
       "title": "My Platformer",
-      "build": "510bde8-dirty",
-      "time": "2026-11-12T10:00:56.724Z",
+      "build": "f45caac",
+      "time": "2026-11-12T10:02:13.594Z",
       "note": "Mech mode: in the Playtest Room, stand in the mech bay (the console right of the start) and press Up. B punches, Down in the air stomps, Select on the ground returns you to the bay. Brown blocks the mech breaks stay broken for you; Training Targets defeated at one scale are gone at the other. The mech yard is behind the brown door past the plug area.",
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
