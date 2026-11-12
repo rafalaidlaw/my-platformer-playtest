@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12T01:51:22.499Z",
+  "updated": "2026-11-12T10:00:56.724Z",
   "games": [
     {
       "slug": "my-platformer",
       "title": "My Platformer",
-      "build": "8605d82",
-      "time": "2026-11-12T01:51:22.499Z",
-      "note": "Plug grappling hook: Select until the plug bubble shows. Swing on any block, zip to sockets; try it past the Playtest Room tunnel. Every jump hangs at the top; jumps are higher.",
+      "build": "510bde8-dirty",
+      "time": "2026-11-12T10:00:56.724Z",
+      "note": "Mech mode: in the Playtest Room, stand in the mech bay (the console right of the start) and press Up. B punches, Down in the air stomps, Select on the ground returns you to the bay. Brown blocks the mech breaks stay broken for you; Training Targets defeated at one scale are gone at the other. The mech yard is behind the brown door past the plug area.",
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
