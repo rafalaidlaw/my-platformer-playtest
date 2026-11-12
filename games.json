@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-12T00:15:06.182Z",
+  "games": [
+    {
+      "slug": "my-platformer",
+      "title": "My Platformer",
+      "build": "c18016a",
+      "time": "2026-11-12T00:15:06.182Z",
+      "note": "Game picker: GAMES returns here; Calibrate is in DEBUG.",
+      "path": "games/my-platformer/",
+      "rom": "games/my-platformer/rom/my-platformer.gbc",
+      "source": "My Platformer.gbsproj"
+    },
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "b7b6e76",
+      "time": "2026-11-12T00:15:06.044Z",
+      "note": "GB-C-V3 build (kotachomp-dx.gbsproj) from the Kota Chomp repo, first posted 11 Nov 13:20.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kotachomp"
+    }
+  ]
+}

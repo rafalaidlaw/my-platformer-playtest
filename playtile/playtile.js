@@ -25,6 +25,7 @@
   const TILE_BUTTONS = { small: "B", big: "A" }; // small = upper button, big = lower-right button
 
   const BUILD = window.PLAYTILE_BUILD || { build: "dev", time: "" };
+  const PAGE = BUILD.page || "game"; // "game" (a game's player) or "launcher" (the game picker)
   const params = new URLSearchParams(location.search);
 
   const storage = (getStore) => {
@@ -96,14 +97,15 @@
   const DPAD_ZONE = { size: 129.3, extra: 10 };
   // Game screen: exactly 8x the Game Boy's 160 x 144 in device pixels
   const SCREEN = { x: 2 / 3, y: 52, w: 1280 / 3, h: 384 }; // 2 device px in, 1280 x 1152 device px
-  // On-screen pills (Select/Start where Delta has them; the bottom row is ours)
+  // On-screen pills (Select/Start where Delta has them; the bottom row is ours).
+  // In a game, GAMES goes back to the picker and Calibrate lives in the debug view.
+  const pill = (id, label, slot) => ({ id, label, x: [24, 122, 220, 318][slot], y: 800, w: 86, h: 34 });
   const PILLS = [
     { id: "select", label: "SELECT", x: 104, y: 720, w: 90, h: 36, game: "Select" },
     { id: "start", label: "START", x: 234, y: 720, w: 90, h: 36, game: "Start" },
-    { id: "calibrate", label: "CALIBRATE", x: 24, y: 800, w: 86, h: 34 },
-    { id: "debug", label: "DEBUG", x: 122, y: 800, w: 86, h: 34 },
-    { id: "mute", label: "MUTE", x: 220, y: 800, w: 86, h: 34 },
-    { id: "reload", label: "RELOAD", x: 318, y: 800, w: 86, h: 34 },
+    ...(PAGE === "launcher"
+      ? [pill("calibrate", "CALIBRATE", 0), pill("debug", "DEBUG", 1), pill("reload", "RELOAD", 3)]
+      : [pill("games", "GAMES", 0), pill("debug", "DEBUG", 1), pill("mute", "MUTE", 2), pill("reload", "RELOAD", 3)]),
   ];
   const JOYP = { Up: "setJoypUp", Down: "setJoypDown", Left: "setJoypLeft", Right: "setJoypRight", A: "setJoypA", B: "setJoypB", Start: "setJoypStart", Select: "setJoypSelect" };
   const CAL_STEPS = [
@@ -143,7 +145,12 @@
   const loadedAt = Date.now();
   const els = {};
 
-  const getEmulator = () => { try { return typeof emulator !== "undefined" ? emulator : null; } catch (e) { return null; } };
+  // Where tile presses go: the GB Studio export's emulator, or a page's own joypad target
+  // with the same setJoypUp(bool)... methods (the game picker sets window.playtileTarget).
+  const getEmulator = () => {
+    try { if (typeof emulator !== "undefined" && emulator) return emulator; } catch (e) { /* not a game page */ }
+    return window.playtileTarget || null;
+  };
   const getVm = () => { try { return typeof vm !== "undefined" ? vm : null; } catch (e) { return null; } };
   const getAudioCtx = () => { try { return typeof Audio !== "undefined" && Audio.ctx ? Audio.ctx : null; } catch (e) { return null; } };
   const isStandalone = () => (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
@@ -239,9 +246,32 @@
     return null;
   }
 
+  const rectHas = (r, x, y) => r.width > 0 && r.height > 0 && x >= r.left && x <= r.right && y >= r.top && y <= r.bottom;
+
+  // Page elements marked data-pt-tap (e.g. the picker's game titles) get tapped via click()
+  function tapTargetAt(x, y) {
+    for (const el of document.querySelectorAll("[data-pt-tap]")) {
+      if (!rectHas(el.getBoundingClientRect(), x, y)) continue;
+      const clip = el.closest("[data-pt-scroll]"); // ignore the parts scrolled out of view
+      if (clip && !rectHas(clip.getBoundingClientRect(), x, y)) continue;
+      return { kind: "tap", id: el, el };
+    }
+    return null;
+  }
+
+  // Page elements marked data-pt-scroll scroll when dragged (native scrolling is blocked)
+  function scrollContainerAt(x, y) {
+    for (const el of document.querySelectorAll("[data-pt-scroll]")) {
+      if (el.scrollHeight > el.clientHeight && rectHas(el.getBoundingClientRect(), x, y)) return el;
+    }
+    return null;
+  }
+
   function hitTest(px, py) {
     const ui = panelButtonAt(px, py);
     if (ui) return ui;
+    const tap = tapTargetAt(px, py);
+    if (tap) return tap;
     for (const p of layout.pills) {
       if (inRect(px, py, p)) return p.game ? { kind: "game", buttons: [p.game], id: p.id } : { kind: "action", id: p.id };
     }
@@ -320,12 +350,20 @@
         touches.set(id, { x, y, hit: { kind: "none" } });
         return;
       }
-      touches.set(id, { x, y, hit: hitTest(x, y) });
+      const scrollEl = scrollContainerAt(x, y);
+      touches.set(id, { x, y, hit: hitTest(x, y), scroll: scrollEl ? { el: scrollEl, startY: y, lastY: y, active: false } : null });
     } else if (type === "move") {
       const s = touches.get(id);
       if (!s) return;
       s.x = x;
       s.y = y;
+      if (s.scroll) {
+        const sc = s.scroll;
+        if (!sc.active && Math.abs(y - sc.startY) > 8) { sc.active = true; s.hit = { kind: "none" }; } // a drag, not a tap
+        if (sc.active) sc.el.scrollTop -= y - sc.lastY;
+        sc.lastY = y;
+        return;
+      }
       if (!calib && (s.hit.kind === "game" || s.hit.kind === "none")) {
         const h = hitTest(x, y); // sliding between pads / onto a button
         s.hit = h.kind === "game" ? h : { kind: "none" };
@@ -333,7 +371,7 @@
     } else {
       const s = touches.get(id);
       touches.delete(id);
-      if (s && type === "end" && (s.hit.kind === "action" || s.hit.kind === "ui")) {
+      if (s && type === "end" && (s.hit.kind === "action" || s.hit.kind === "ui" || s.hit.kind === "tap")) {
         const h = hitTest(x, y);
         if (h.kind === s.hit.kind && h.id === s.hit.id) runAction(s.hit); // fire on release, if still on it
       }
@@ -369,7 +407,9 @@
   // ---------------------------------------------------------------------------------
   function runAction(hit) {
     if (hit.kind === "ui") return hit.action();
-    if (hit.id === "calibrate") startCalibration();
+    if (hit.kind === "tap") return hit.el.click();
+    if (hit.id === "games") goToGames();
+    else if (hit.id === "calibrate") startCalibration();
     else if (hit.id === "debug") { debugOn = !debugOn; render(); }
     else if (hit.id === "mute") { muted = !muted; local.set("playtile.muted", muted ? "1" : "0"); applyMute(); render(); }
     else if (hit.id === "reload") reload();
@@ -381,6 +421,11 @@
     if (!v) return;
     if (defaultVolume === null) defaultVolume = v.volume;
     v.volume = muted ? 0 : defaultVolume;
+  }
+
+  function goToGames() {
+    releaseAll();
+    location.href = `${BUILD.home || "../../"}${BUILD.slug ? `?from=${encodeURIComponent(BUILD.slug)}` : ""}`;
   }
 
   function reload() {
@@ -550,6 +595,12 @@
 
     els.stamp = add("div", "pt-stamp");
     els.info = add("div", "pt-info");
+    els.infoText = add("div", null, els.info);
+    const calButton = add("div", null, els.info); // Calibrate lives here in games (no pill for it)
+    calButton.className = "pt-btn";
+    calButton.textContent = "Calibrate tile";
+    calButton.setAttribute("data-pt-tap", "");
+    calButton.addEventListener("click", startCalibration);
     els.rotate = add("div", "pt-rotate");
     els.rotate.innerHTML = "<div>&#8635;</div><div>Rotate to portrait</div>";
     els.layer = add("div", "pt-touch"); // last = on top of everything
@@ -568,14 +619,16 @@
     els.svg.setAttribute("height", L.vh);
     els.tile.setAttribute("transform", `matrix(${T.a} ${T.b} ${-T.b} ${T.a} ${T.tx} ${T.ty})`);
     for (const p of L.pills) els.pills[p.id].g.setAttribute("transform", `translate(${p.x} ${p.y})`);
-    els.pills.mute.text.textContent = muted ? "UNMUTE" : "MUTE";
+    if (els.pills.mute) {
+      els.pills.mute.text.textContent = muted ? "UNMUTE" : "MUTE";
+      els.pills.mute.g.classList.toggle("pt-on-state", muted);
+    }
     els.pills.reload.text.textContent = newBuild ? "UPDATE" : "RELOAD";
     els.pills.reload.g.classList.toggle("pt-attention", !!newBuild);
     els.pills.debug.g.classList.toggle("pt-on-state", debugOn);
-    els.pills.mute.g.classList.toggle("pt-on-state", muted);
 
     const time = BUILD.time ? new Date(BUILD.time).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "";
-    els.stamp.textContent = `build ${BUILD.build}${time ? ` · ${time}` : ""}${newBuild ? `  → ${newBuild.build} available` : ""}`;
+    els.stamp.textContent = `${PAGE === "launcher" ? "site" : "build"} ${BUILD.build}${time ? ` · ${time}` : ""}${newBuild ? `  → ${newBuild.build} available` : ""}`;
     els.stamp.style.top = `${L.stampY}px`;
 
     rotated = L.vw > L.vh;
@@ -633,7 +686,7 @@
 
     const ctx = getAudioCtx();
     const sa = L.safe;
-    els.info.textContent = [
+    els.infoText.textContent = [
       `viewport ${L.vw} x ${L.vh} @${window.devicePixelRatio}x ${L.exact ? "(13 Pro Max layout 1:1)" : "(NOT 428 x 926)"}`,
       `display-mode ${L.standalone ? "standalone" : "browser"}`,
       `safe-area t${sa.top} r${sa.right} b${sa.bottom} l${sa.left}`,

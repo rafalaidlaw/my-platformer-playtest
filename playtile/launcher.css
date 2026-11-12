@@ -1,0 +1,213 @@
+/* Game picker. Plain page on desktop; with Playtile mode on (html.pt-on) the list
+   becomes a Game Boy-style menu inside the screen area above the tile. */
+
+:root {
+  --gb0: #e0f8cf;
+  --gb1: #86c06c;
+  --gb2: #306850;
+  --gb3: #071821;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #121317;
+  color: #e6e8ec;
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+#launcher {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 2rem 16px 3rem;
+}
+
+#launcher header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+#launcher .hint {
+  margin: 0.25rem 0 1.25rem;
+  color: #9aa0ab;
+  font-size: 0.9rem;
+}
+
+#games {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  border: 2px solid #272a32;
+  border-radius: 12px;
+  background: #1a1c22;
+  cursor: pointer;
+}
+
+.game.selected {
+  border-color: var(--gb1);
+}
+
+.game .cursor {
+  color: var(--gb1);
+  font-size: 0.8rem;
+  visibility: hidden;
+}
+
+.game.selected .cursor {
+  visibility: visible;
+}
+
+.game .info {
+  flex: 1;
+  min-width: 0;
+}
+
+.game .title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.game .meta {
+  color: var(--gb1);
+  font: 0.8rem/1.4 ui-monospace, Menlo, Consolas, monospace;
+}
+
+.game .note {
+  color: #b9bec8;
+  font-size: 0.85rem;
+}
+
+.game .note:empty {
+  display: none;
+}
+
+.game .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.game .actions a {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.game .play {
+  background: var(--gb1);
+  color: var(--gb3);
+}
+
+.game .download {
+  border: 2px solid var(--gb1);
+  color: var(--gb1);
+}
+
+.game a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+#status:empty {
+  display: none;
+}
+
+#launcher .help {
+  margin-top: 2rem;
+  color: #9aa0ab;
+  font-size: 0.85rem;
+}
+
+#launcher code {
+  color: #e6e8ec;
+}
+
+/* ---- Playtile mode: a menu inside the screen area ---- */
+
+html.pt-on #launcher {
+  position: fixed;
+  left: var(--pt-sx);
+  top: var(--pt-sy);
+  width: var(--pt-sw);
+  height: var(--pt-sh);
+  z-index: 1;
+  box-sizing: border-box;
+  max-width: none;
+  margin: 0;
+  padding: 14px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  background: var(--gb0);
+  color: var(--gb3);
+}
+
+html.pt-on #launcher header h1 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+html.pt-on #launcher .hint {
+  margin: 2px 0 10px;
+  color: var(--gb2);
+  font-size: 12px;
+}
+
+html.pt-on #games {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: auto;
+}
+
+html.pt-on .game {
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  border: 2px solid var(--gb2);
+  border-radius: 6px;
+  background: transparent;
+  gap: 8px;
+}
+
+html.pt-on .game.selected {
+  border-color: var(--gb3);
+  background: var(--gb2);
+  color: var(--gb0);
+}
+
+html.pt-on .game .cursor {
+  color: var(--gb0);
+}
+
+html.pt-on .game .meta {
+  color: inherit;
+  opacity: 0.85;
+  font-size: 11px;
+}
+
+html.pt-on .game .note {
+  color: inherit;
+  opacity: 0.85;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+html.pt-on .game .actions,
+html.pt-on #launcher .help {
+  display: none;
+}
+
+html.pt-on #status {
+  margin: 8px 0 0;
+  color: var(--gb2);
+  font-size: 13px;
+}
