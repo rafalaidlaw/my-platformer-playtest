@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12T00:15:06.182Z",
+  "updated": "2026-11-12T01:51:22.499Z",
   "games": [
     {
       "slug": "my-platformer",
       "title": "My Platformer",
-      "build": "c18016a",
-      "time": "2026-11-12T00:15:06.182Z",
-      "note": "Game picker: GAMES returns here; Calibrate is in DEBUG.",
+      "build": "8605d82",
+      "time": "2026-11-12T01:51:22.499Z",
+      "note": "Plug grappling hook: Select until the plug bubble shows. Swing on any block, zip to sockets; try it past the Playtest Room tunnel. Every jump hangs at the top; jumps are higher.",
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
