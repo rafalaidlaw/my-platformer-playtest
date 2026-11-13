@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12T10:02:13.594Z",
+  "updated": "2026-11-13T00:20:37.509Z",
   "games": [
     {
       "slug": "my-platformer",
       "title": "My Platformer",
-      "build": "f45caac",
-      "time": "2026-11-12T10:02:13.594Z",
-      "note": "Mech mode: in the Playtest Room, stand in the mech bay (the console right of the start) and press Up. B punches, Down in the air stomps, Select on the ground returns you to the bay. Brown blocks the mech breaks stay broken for you; Training Targets defeated at one scale are gone at the other. The mech yard is behind the brown door past the plug area.",
+      "build": "8ac68f3",
+      "time": "2026-11-13T00:20:37.509Z",
+      "note": "Wall jumps and ledge hang: on a wall in the air, press A to jump off it (hold towards one wall and tap A each time you touch it to climb it). Fall past a wall's top edge holding towards it to hang: Up climbs on, A jumps, Down lets go. Try pillars 5 and 6 and the shaft behind the hanging block in the Playtest Room. Aiming: B fires the plug or pellet ahead, Up + B straight up, Up + Left/Right + B diagonally up.",
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
