@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-13T00:20:37.509Z",
+  "updated": "2026-11-19T15:52:43.066Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "7b54492",
+      "time": "2026-11-19T15:52:43.066Z",
+      "note": "Dumpster level, the third line on the title screen: the ledge round the rim. Walking into its side costs a heart and bounces you; jumping onto it works, and the whole jump arc now plays out before the cat lands instead of just the landing half appearing. The take-off window is three columns wide - nearer and you land short against the side, further and you overshoot onto the outer column and smack the rim. Nothing in the art says where that window is yet, so the thing to judge is whether it reads fairly. Walking off the inner edge dips the cat for about a beat. Evolved, the window is one block a side.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kc-export"
+    },
     {
       "slug": "my-platformer",
       "title": "My Platformer",
@@ -10,16 +20,6 @@
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "b7b6e76",
-      "time": "2026-11-12T00:15:06.044Z",
-      "note": "GB-C-V3 build (kotachomp-dx.gbsproj) from the Kota Chomp repo, first posted 11 Nov 13:20.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export kotachomp"
     }
   ]
 }

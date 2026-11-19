@@ -2,10 +2,10 @@
   "version": 1,
   "rom": "rom/kotachomp-dx.gbc",
   "project": {
-    "name": "Kota Chomp DX",
-    "author": "Rafael"
+    "name": "kotachomp-dx",
+    "author": "Rafa Laidlaw"
   },
-  "colorCorrection": "none",
+  "colorCorrection": "default",
   "customControls": {
     "up": [
       "ArrowUp",
