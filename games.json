@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-24T15:54:36.444Z",
+  "updated": "2026-11-24T16:19:14.258Z",
   "games": [
+    {
+      "slug": "my-platformer",
+      "title": "My Platformer",
+      "build": "c54ee50",
+      "time": "2026-11-24T16:19:14.258Z",
+      "note": "Boots straight into the Playtest Room now (no logo, title or menu); Start restarts the room fresh. Night sky: black with two layers of parallax stars that drift slower than you as you move. Ledges: touch a wall with its top edge anywhere between your hands and feet and you pop straight into the hang; the plug zipping to a socket near the top of a wall also ends in a hang. The brown mech yard door has a gap at the top: wall jump up either side (3 wall jumps) to get in and out without the mech.",
+      "path": "games/my-platformer/",
+      "rom": "games/my-platformer/rom/my-platformer.gbc",
+      "source": "My Platformer.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export kcweb-export"
-    },
-    {
-      "slug": "my-platformer",
-      "title": "My Platformer",
-      "build": "8ac68f3",
-      "time": "2026-11-13T00:20:37.509Z",
-      "note": "Wall jumps and ledge hang: on a wall in the air, press A to jump off it (hold towards one wall and tap A each time you touch it to climb it). Fall past a wall's top edge holding towards it to hang: Up climbs on, A jumps, Down lets go. Try pillars 5 and 6 and the shaft behind the hanging block in the Playtest Room. Aiming: B fires the plug or pellet ahead, Up + B straight up, Up + Left/Right + B diagonally up.",
-      "path": "games/my-platformer/",
-      "rom": "games/my-platformer/rom/my-platformer.gbc",
-      "source": "My Platformer.gbsproj"
     }
   ]
 }
