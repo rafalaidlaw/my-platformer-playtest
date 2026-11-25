@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-25T16:38:38.576Z",
+  "updated": "2026-11-25T16:53:38.554Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "sidehead-1125",
+      "time": "2026-11-25T16:53:38.554Z",
+      "note": "Your face on the side view too, on the body the way your drawing has it. Head still yellow - see the note.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kcweb"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "newhead-1125b",
-      "time": "2026-11-25T16:24:15.311Z",
-      "note": "Kota's new cuter head, this time actually in the ROM. Dumpster level switched off.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export kcweb"
     },
     {
       "slug": "my-platformer",
