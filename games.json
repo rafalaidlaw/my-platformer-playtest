@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-25T17:45:13.741Z",
+  "updated": "2026-11-25T18:10:04.513Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "head-fix-1125",
+      "time": "2026-11-25T18:10:04.513Z",
+      "note": "One head again (it was drawn twice), pink mouth ring, and the body joins the head walking down.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kcweb"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "pinkhead-1125",
-      "time": "2026-11-25T17:31:56.004Z",
-      "note": "Head in E99A9A on a palette of its own, and the side face mirrored so it faces the way he runs.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export kcweb"
     },
     {
       "slug": "my-platformer",
