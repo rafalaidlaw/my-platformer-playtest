@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T16:53:38.554Z",
+  "updated": "2026-11-25T17:31:56.004Z",
   "games": [
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
-      "build": "sidehead-1125",
-      "time": "2026-11-25T16:53:38.554Z",
-      "note": "Your face on the side view too, on the body the way your drawing has it. Head still yellow - see the note.",
+      "build": "pinkhead-1125",
+      "time": "2026-11-25T17:31:56.004Z",
+      "note": "Head in E99A9A on a palette of its own, and the side face mirrored so it faces the way he runs.",
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export kcweb"
