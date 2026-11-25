@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-25T15:54:09.446Z",
+  "updated": "2026-11-25T16:16:28.615Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "newhead-1125",
+      "time": "2026-11-25T16:16:28.615Z",
+      "note": "Kota's new cuter head. The dumpster level is switched off in this build.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kcweb"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -20,16 +30,6 @@
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "90d5f8d",
-      "time": "2026-11-24T15:54:36.444Z",
-      "note": "Jump layering, and the big cat's colour. Small cat, straight away: jump over your own body and the body should stay unbroken under the arc instead of stopping dead at the cell you crossed; where the arc's ground shadow crosses your body the body is drawn over the shadow now rather than cut by it; and in a jump the head is drawn on its own, with no neck stub poking out behind it off the back of the arc. Evolved, so a long run (length 100): the detailing pixels along the big cat's bottom edge and inside its fill are a light tint of the body yellow instead of black, the body's bottom outline and the adult arc's feet are that same shade, and the detailing no longer turns red where the cat crosses the person's feet. What to judge: whether the tint reads as shading rather than as dirt, and whether a jump's silhouette is clean now.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export kcweb-export"
     }
   ]
 }
