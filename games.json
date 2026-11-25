@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T06:17:50.226Z",
+  "updated": "2026-11-25T12:27:32.733Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-7dd3cce",
-      "time": "2026-11-25T06:17:50.226Z",
-      "note": "Two more hints where players could stall: the packed winter car (A asks someone to shift) and the stairwell in Moscow (Select: our door is the lit one on the left). Whole game, start to finish; temporary art and music.",
+      "build": "rom-13b154f",
+      "time": "2026-11-25T12:27:32.733Z",
+      "note": "Chapter 3: walk the platform - his face changes every three steps through nine faces (dog at your end, crow at the far end). A on each face.",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
