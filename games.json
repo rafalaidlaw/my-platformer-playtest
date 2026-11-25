@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T06:10:21.318Z",
+  "updated": "2026-11-25T06:15:18.003Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-e400222",
-      "time": "2026-11-25T06:10:21.318Z",
-      "note": "Fixes a possible hang in chapter 4: swatting the crows off Baby Brother could freeze if a crow was flying back to its perch at that moment. Adds one-line hints where the next action isn't obvious (the crows, looking at his face, Boris's cellar), redraws the jungle gym as bars, and an original Game Boy now says the game needs a Game Boy Color instead of showing garbage. Still the whole game, start to finish.",
+      "build": "rom-eb771dd",
+      "time": "2026-11-25T06:15:18.003Z",
+      "note": "Two more fixes for places you could get stuck: in chapter 1, going north at the fork could leave you at the subway entrance with nothing happening; in chapter 6, pressing the d-pad while the camera drifted could stop Boris's show. Whole game, start to finish.",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
