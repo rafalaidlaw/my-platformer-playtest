@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-25T17:31:56.004Z",
+  "updated": "2026-11-25T17:45:13.741Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-3e60f96",
+      "time": "2026-11-25T17:45:13.741Z",
+      "note": "Everyone at 32 px, from Rafa's sprite sheets; the future self 32x48 with his heads; the crowds painted in",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export kcweb"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-2dfdb39",
-      "time": "2026-11-25T16:38:38.576Z",
-      "note": "The plane flies west off the screen; a crow on the wire follows it, then the flock as it fades to black. Rafa's dog, crow and Mother close-ups. (Also everything in rom-ddf188d, which GitHub never published: the title, the pan into the alley, the cast, the sound effects.)",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
