@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T12:27:32.733Z",
+  "updated": "2026-11-25T14:07:57.038Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-13b154f",
-      "time": "2026-11-25T12:27:32.733Z",
-      "note": "Chapter 3: walk the platform - his face changes every three steps through nine faces (dog at your end, crow at the far end). A on each face.",
+      "build": "rom-a60b04f",
+      "time": "2026-11-25T14:07:57.038Z",
+      "note": "Show, don't tell: the voice-over goes by in captions while you play; lines the picture already says are cut; glints instead of hints; new staging (13th floor, the phone, the escalator, Boris's show, the montage, your own face).",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
