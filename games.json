@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-24T16:19:14.258Z",
+  "updated": "2026-11-25T05:58:53.198Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-1c422fb",
+      "time": "2026-11-25T05:58:53.198Z",
+      "note": "The whole game, start to finish (about 30-45 minutes): the prologue and all seven chapters, following the script. All art and music are temporary, made by the build's tools. Each chapter card saves; Resume on the title. Start shows faces found, Select gives a hint. What to judge: whether each chapter feels like the script, and anything confusing, stuck or broken.",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "my-platformer",
       "title": "My Platformer",
