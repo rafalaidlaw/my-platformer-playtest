@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-25T16:24:15.311Z",
+  "updated": "2026-11-25T16:38:38.576Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-2dfdb39",
+      "time": "2026-11-25T16:38:38.576Z",
+      "note": "The plane flies west off the screen; a crow on the wire follows it, then the flock as it fades to black. Rafa's dog, crow and Mother close-ups. (Also everything in rom-ddf188d, which GitHub never published: the title, the pan into the alley, the cast, the sound effects.)",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export kcweb"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-ddf188d",
-      "time": "2026-11-25T15:54:09.446Z",
-      "note": "Rafa's title picture, the pan down into the alley, the cast redrawn from his sprite sheets, sound effects from SweetSounds (Coffee 'Valen' Bat) and GBFX (Tronimal), credits that follow the effects in use.",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
