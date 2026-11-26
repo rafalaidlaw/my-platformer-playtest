@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-26T14:59:36.007Z",
+  "updated": "2026-11-26T15:04:32.294Z",
   "games": [
+    {
+      "slug": "my-platformer",
+      "title": "My Platformer",
+      "build": "3cd96a3",
+      "time": "2026-11-26T15:04:32.294Z",
+      "note": "Menu and intro scenes deleted (we'll make our own); plays the same, still boots straight into the Playtest Room",
+      "path": "games/my-platformer/",
+      "rom": "games/my-platformer/rom/my-platformer.gbc",
+      "source": "My Platformer.gbsproj"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -20,16 +30,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web1125b"
-    },
-    {
-      "slug": "my-platformer",
-      "title": "My Platformer",
-      "build": "c54ee50",
-      "time": "2026-11-24T16:19:14.258Z",
-      "note": "Boots straight into the Playtest Room now (no logo, title or menu); Start restarts the room fresh. Night sky: black with two layers of parallax stars that drift slower than you as you move. Ledges: touch a wall with its top edge anywhere between your hands and feet and you pop straight into the hang; the plug zipping to a socket near the top of a wall also ends in a hang. The brown mech yard door has a gap at the top: wall jump up either side (3 wall jumps) to get in and out without the mech.",
-      "path": "games/my-platformer/",
-      "rom": "games/my-platformer/rom/my-platformer.gbc",
-      "source": "My Platformer.gbsproj"
     }
   ]
 }
