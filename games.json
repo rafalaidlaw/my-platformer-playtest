@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-26T15:04:32.294Z",
+  "updated": "2026-11-26T15:10:01.833Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-4f55bea",
+      "time": "2026-11-26T15:10:01.833Z",
+      "note": "Opening shot: no black boxes, just the words, fading in slowly from the dark, each starting 0.1 s after the one before",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "my-platformer",
       "title": "My Platformer",
@@ -10,16 +20,6 @@
       "path": "games/my-platformer/",
       "rom": "games/my-platformer/rom/my-platformer.gbc",
       "source": "My Platformer.gbsproj"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-f33649f",
-      "time": "2026-11-26T14:59:36.007Z",
-      "note": "Title: the stars twinkle (also on the ending's sky)",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "kota-chomp-dx",
