@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T17:58:02.644Z",
+  "updated": "2026-11-26T21:58:44.596Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-71f3d18",
-      "time": "2026-11-26T17:58:02.644Z",
-      "note": "After the lamppost: the alley shot, then the two of them walking, with chapter 1's first line",
+      "build": "rom-0aaa67b",
+      "time": "2026-11-26T21:58:44.596Z",
+      "note": "Black sky in the lamppost shot; his head from behind for the glimpse line; the new note; no sprite on the card after Resume",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
