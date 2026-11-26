@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T23:05:21.434Z",
+  "updated": "2026-11-26T23:33:44.831Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-6084bda",
-      "time": "2026-11-26T23:05:21.434Z",
-      "note": "The two of them walking side on along a snowy street, the camera panning, with parallax",
+      "build": "rom-98c29bd",
+      "time": "2026-11-26T23:33:44.831Z",
+      "note": "The street pan: all 580 tiles streamed through VRAM (no merging); the two walkers further apart",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
