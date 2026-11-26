@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-26T22:13:11.553Z",
+  "updated": "2026-11-26T22:21:06.419Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-3e20436",
+      "time": "2026-11-26T22:21:06.419Z",
+      "note": "The note: memory line first, true line underneath; each paragraph fades in like the lamppost words",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-0aaa67b",
-      "time": "2026-11-26T21:58:44.596Z",
-      "note": "Black sky in the lamppost shot; his head from behind for the glimpse line; the new note; no sprite on the card after Resume",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
