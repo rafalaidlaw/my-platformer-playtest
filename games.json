@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T22:21:06.419Z",
+  "updated": "2026-11-26T22:50:22.163Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-3e20436",
-      "time": "2026-11-26T22:21:06.419Z",
-      "note": "The note: memory line first, true line underneath; each paragraph fades in like the lamppost words",
+      "build": "rom-92d7e2c",
+      "time": "2026-11-26T22:50:22.163Z",
+      "note": "Note: third paragraph. Walking picture above its caption, the caption centred",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
