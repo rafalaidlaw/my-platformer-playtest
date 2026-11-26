@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T08:42:03.790Z",
+  "updated": "2026-11-26T09:06:10.710Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-e5f0755",
-      "time": "2026-11-26T08:42:03.790Z",
-      "note": "Opening words set down the dark at his left, as in the mock-up",
+      "build": "rom-8655f14",
+      "time": "2026-11-26T09:06:10.710Z",
+      "note": "New title: Places I Don't Know, its water shimmering",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
