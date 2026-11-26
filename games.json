@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T15:10:01.833Z",
+  "updated": "2026-11-26T15:48:08.834Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-4f55bea",
-      "time": "2026-11-26T15:10:01.833Z",
-      "note": "Opening shot: no black boxes, just the words, fading in slowly from the dark, each starting 0.1 s after the one before",
+      "build": "rom-1a8da04",
+      "time": "2026-11-26T15:48:08.834Z",
+      "note": "Opening shot: 'On my street, I see a man who is my future self.', the words fading in 0.2 s apart",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
