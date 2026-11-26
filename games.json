@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T15:48:08.834Z",
+  "updated": "2026-11-26T16:14:09.791Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-1a8da04",
-      "time": "2026-11-26T15:48:08.834Z",
-      "note": "Opening shot: 'On my street, I see a man who is my future self.', the words fading in 0.2 s apart",
+      "build": "rom-e478f92",
+      "time": "2026-11-26T16:14:09.791Z",
+      "note": "New content warning at power-on: 'As far as memory can be trusted, these stories are true...'",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
