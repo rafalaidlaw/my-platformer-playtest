@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T16:14:09.791Z",
+  "updated": "2026-11-26T16:20:41.059Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-e478f92",
-      "time": "2026-11-26T16:14:09.791Z",
-      "note": "New content warning at power-on: 'As far as memory can be trusted, these stories are true...'",
+      "build": "rom-70e9782",
+      "time": "2026-11-26T16:20:41.059Z",
+      "note": "Content warning at power-on: a CONTENT WARNING heading over 'Themes of suicide, dementia, and police surveillance.'",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
