@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T09:29:17.508Z",
+  "updated": "2026-11-26T14:26:23.101Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-b37f223",
-      "time": "2026-11-26T09:29:17.508Z",
-      "note": "Title: Places I Don't Know under grey clouds, water shimmering",
+      "build": "rom-be2db8f",
+      "time": "2026-11-26T14:26:23.101Z",
+      "note": "Opening shot: the first line now reads 'In my neighbourhood, I see a man who is my future self.' and its letters fade up out of the black labels one by one, quickly",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
