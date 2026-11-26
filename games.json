@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T03:25:01.314Z",
+  "updated": "2026-11-26T08:42:03.790Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-9eb6aeb",
-      "time": "2026-11-26T03:25:01.314Z",
-      "note": "Streetlamp opening; text waits for A everywhere; trains come in behind their headlights; crowd in front on the crowded platform; camera leads while following him; new content note",
+      "build": "rom-e5f0755",
+      "time": "2026-11-26T08:42:03.790Z",
+      "note": "Opening words set down the dark at his left, as in the mock-up",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
