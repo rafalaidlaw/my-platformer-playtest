@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T17:35:19.338Z",
+  "updated": "2026-11-26T17:58:02.644Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-5f75acb",
-      "time": "2026-11-26T17:35:19.338Z",
-      "note": "Power-on: the content warning on its own page first, then the note; both centred",
+      "build": "rom-71f3d18",
+      "time": "2026-11-26T17:58:02.644Z",
+      "note": "After the lamppost: the alley shot, then the two of them walking, with chapter 1's first line",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
