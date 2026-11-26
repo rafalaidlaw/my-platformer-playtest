@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-26T23:33:44.831Z",
+  "updated": "2026-11-26T23:46:47.059Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "open-mouth-1126",
+      "time": "2026-11-26T23:46:47.059Z",
+      "note": "The horizontal open mouth is now the same drawing as the vertical one - eating and any other jaws-open moment. Look at a mouthful running left or right.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web1126"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "one-head-1126",
-      "time": "2026-11-26T22:13:11.553Z",
-      "note": "One head both ways: the side face is the vertical face mirrored, and the jaws open in red again.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web"
     },
     {
       "slug": "my-platformer",
