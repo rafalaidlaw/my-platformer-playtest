@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T03:48:11.202Z",
+  "updated": "2026-11-27T12:20:31.219Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-92967dc",
-      "time": "2026-11-27T03:48:11.202Z",
-      "note": "Note: two paragraphs; one black across the cut from the title's pan to the lamppost",
+      "build": "rom-31c036e",
+      "time": "2026-11-27T12:20:31.219Z",
+      "note": "Content warning: words and the A's disc in E39C48",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
