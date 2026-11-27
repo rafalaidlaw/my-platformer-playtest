@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T02:07:13.587Z",
+  "updated": "2026-11-27T02:18:21.146Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-c3a65db",
-      "time": "2026-11-27T02:07:13.587Z",
-      "note": "The subway redesigned from the two reference pictures: platforms and the turnstile hall",
+      "build": "rom-75da00e",
+      "time": "2026-11-27T02:18:21.146Z",
+      "note": "The man on the stretcher as designed: his close-up, and his colours on the escalator",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
