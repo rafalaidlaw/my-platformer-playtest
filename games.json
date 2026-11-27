@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T00:13:37.605Z",
+  "updated": "2026-11-27T00:40:25.560Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "neck-1126",
+      "time": "2026-11-27T00:40:25.560Z",
+      "note": "The neck now runs into the head when you move up or down - it used to stop at the ears and show the floor through. Open mouth unchanged from the last build.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web1126b"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "open-mouth-1126",
-      "time": "2026-11-26T23:46:47.059Z",
-      "note": "The horizontal open mouth is now the same drawing as the vertical one - eating and any other jaws-open moment. Look at a mouthful running left or right.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web1126"
     },
     {
       "slug": "my-platformer",
