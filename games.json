@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T23:28:41.479Z",
+  "updated": "2026-11-27T23:31:33.532Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-46870b0",
+      "time": "2026-11-27T23:31:33.532Z",
+      "note": "Ghosts of Faces: every line of the script in the game; I get lost in the tunnels set into the maze's dark",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-432d98b",
-      "time": "2026-11-27T22:20:44.473Z",
-      "note": "New 'wrong height ... jet black' slide: his close-up in the long coat, the words painted on the wall in the picture (no caption; press A to go on).",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
