@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T01:39:16.954Z",
+  "updated": "2026-11-27T01:56:55.465Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-dd8ef84",
-      "time": "2026-11-27T01:39:16.954Z",
-      "note": "Content warning heading in E39C48; the A on an E25928 disc",
+      "build": "rom-d76f25c",
+      "time": "2026-11-27T01:56:55.465Z",
+      "note": "The title's pan goes down over the frozen water, its floes and snowdrifts, into the dark",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
