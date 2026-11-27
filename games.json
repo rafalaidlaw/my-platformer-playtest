@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T19:46:00.780Z",
+  "updated": "2026-11-27T20:12:56.910Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-64905d1",
-      "time": "2026-11-27T19:46:00.780Z",
-      "note": "The walker in the rain: on Main St by the smoke shop, a man walks slowly in the rain -- talk to him (A). Also the ghost faces rise slower in the opening pan.",
+      "build": "rom-006bfb9",
+      "time": "2026-11-27T20:12:56.910Z",
+      "note": "The note's words now come up at the end of the title's pan (no separate page after the warning); press A there. The ghost faces rise slower.",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
