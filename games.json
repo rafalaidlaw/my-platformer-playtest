@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T22:24:36.437Z",
+  "updated": "2026-11-27T23:28:41.479Z",
   "games": [
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
-      "build": "legs-1127",
-      "time": "2026-11-27T22:24:36.437Z",
-      "note": "The head is no longer drawn behind its own body on the row above the person. The legs' priority bit was claiming a row the legs have no pixels on; it now applies only where the person actually is. The cat still goes behind the legs exactly as before.",
+      "build": "paws-1127",
+      "time": "2026-11-27T23:28:41.479Z",
+      "note": "The legs carry on a pixel, so they read as legs under the bigger head. The original bounced the head instead, but that drawing sat above the body line and this one sits in it, so the bounce has nowhere to go.",
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web"
