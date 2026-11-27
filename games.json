@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T03:39:31.007Z",
+  "updated": "2026-11-27T03:48:11.202Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-92967dc",
+      "time": "2026-11-27T03:48:11.202Z",
+      "note": "Note: two paragraphs; one black across the cut from the title's pan to the lamppost",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web1126c"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-75da00e",
-      "time": "2026-11-27T02:18:21.146Z",
-      "note": "The man on the stretcher as designed: his close-up, and his colours on the escalator",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
