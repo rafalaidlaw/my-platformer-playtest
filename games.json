@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T21:27:37.805Z",
+  "updated": "2026-11-27T22:07:22.489Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-c06683b",
-      "time": "2026-11-27T21:27:37.805Z",
-      "note": "The note's words in the title pan fade in as they rise onto the screen and fade out as they leave.",
+      "build": "rom-cf95bca",
+      "time": "2026-11-27T22:07:22.489Z",
+      "note": "Chapter 1's voice-over is now painted on the rooftops along the walk, fading in as you come near each line and out as you go on (no A). The streets are longer to make room: the subway is further east.",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
