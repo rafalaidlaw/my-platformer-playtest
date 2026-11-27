@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T20:12:56.910Z",
+  "updated": "2026-11-27T20:53:16.863Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-006bfb9",
-      "time": "2026-11-27T20:12:56.910Z",
-      "note": "The note's words now come up at the end of the title's pan (no separate page after the warning); press A there. The ghost faces rise slower.",
+      "build": "rom-b20fa71",
+      "time": "2026-11-27T20:53:16.863Z",
+      "note": "No A at the note's words: the title's pan goes on past them to the street lamp. The 'wrong height ... jet black' slide now shows the two of you walking down the alley.",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
