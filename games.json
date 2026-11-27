@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T01:16:01.445Z",
+  "updated": "2026-11-27T01:39:16.954Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-57a4974",
-      "time": "2026-11-27T01:16:01.445Z",
-      "note": "Content warning as the mock-up: sign, heading, hazard dashes, warning, dashes",
+      "build": "rom-dd8ef84",
+      "time": "2026-11-27T01:39:16.954Z",
+      "note": "Content warning heading in E39C48; the A on an E25928 disc",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
