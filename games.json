@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T13:50:47.080Z",
+  "updated": "2026-11-27T15:25:33.403Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-122766d",
-      "time": "2026-11-27T13:50:47.080Z",
-      "note": "Warning in the caution sign's yellow; the note's A a second after the page",
+      "build": "rom-7f05336",
+      "time": "2026-11-27T15:25:33.403Z",
+      "note": "Faces from Rafa's picture rise over the ice as the title pans down",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
