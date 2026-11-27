@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T22:07:22.489Z",
+  "updated": "2026-11-27T22:20:44.473Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-cf95bca",
-      "time": "2026-11-27T22:07:22.489Z",
-      "note": "Chapter 1's voice-over is now painted on the rooftops along the walk, fading in as you come near each line and out as you go on (no A). The streets are longer to make room: the subway is further east.",
+      "build": "rom-432d98b",
+      "time": "2026-11-27T22:20:44.473Z",
+      "note": "New 'wrong height ... jet black' slide: his close-up in the long coat, the words painted on the wall in the picture (no caption; press A to go on).",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
