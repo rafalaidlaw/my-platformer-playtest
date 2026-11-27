@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T12:41:52.078Z",
+  "updated": "2026-11-27T13:43:00.917Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "face-1127",
+      "time": "2026-11-27T13:43:00.917Z",
+      "note": "The airborne head is whole again: the bare no-neck frames were clearing the face's back two columns and the arc's red showed through the gap. Vertical eyes flipped too, red bar under the white.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export kcweb"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "eyes-1126",
-      "time": "2026-11-27T03:39:31.007Z",
-      "note": "Vertical eyes: the red bar now runs across the eye instead of down its side. Plus the neck fix from the last build.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web1126c"
     },
     {
       "slug": "my-platformer",
