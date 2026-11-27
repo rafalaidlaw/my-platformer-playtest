@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T22:20:44.473Z",
+  "updated": "2026-11-27T22:24:36.437Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "legs-1127",
+      "time": "2026-11-27T22:24:36.437Z",
+      "note": "The head is no longer drawn behind its own body on the row above the person. The legs' priority bit was claiming a row the legs have no pixels on; it now applies only where the person actually is. The cat still goes behind the legs exactly as before.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "face-1127",
-      "time": "2026-11-27T13:43:00.917Z",
-      "note": "The airborne head is whole again: the bare no-neck frames were clearing the face's back two columns and the arc's red showed through the gap. Vertical eyes flipped too, red bar under the white.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export kcweb"
     },
     {
       "slug": "my-platformer",
