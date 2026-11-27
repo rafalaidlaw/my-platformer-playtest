@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T00:40:25.560Z",
+  "updated": "2026-11-27T01:16:01.445Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-57a4974",
+      "time": "2026-11-27T01:16:01.445Z",
+      "note": "Content warning as the mock-up: sign, heading, hazard dashes, warning, dashes",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web1126b"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-7d95be5",
-      "time": "2026-11-27T00:13:37.605Z",
-      "note": "Caution sign above the content warning, half size",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
