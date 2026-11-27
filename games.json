@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-27T02:18:21.146Z",
+  "updated": "2026-11-27T03:39:31.007Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "eyes-1126",
+      "time": "2026-11-27T03:39:31.007Z",
+      "note": "Vertical eyes: the red bar now runs across the eye instead of down its side. Plus the neck fix from the last build.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web1126c"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "neck-1126",
-      "time": "2026-11-27T00:40:25.560Z",
-      "note": "The neck now runs into the head when you move up or down - it used to stop at the ears and show the floor through. Open mouth unchanged from the last build.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web1126b"
     },
     {
       "slug": "my-platformer",
