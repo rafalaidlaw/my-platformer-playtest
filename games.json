@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-26T23:46:47.059Z",
+  "updated": "2026-11-27T00:13:37.605Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-7d95be5",
+      "time": "2026-11-27T00:13:37.605Z",
+      "note": "Caution sign above the content warning, half size",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web1126"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-98c29bd",
-      "time": "2026-11-26T23:33:44.831Z",
-      "note": "The street pan: all 580 tiles streamed through VRAM (no merging); the two walkers further apart",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
