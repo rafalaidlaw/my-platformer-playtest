@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T01:56:55.465Z",
+  "updated": "2026-11-27T02:07:13.587Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-d76f25c",
-      "time": "2026-11-27T01:56:55.465Z",
-      "note": "The title's pan goes down over the frozen water, its floes and snowdrifts, into the dark",
+      "build": "rom-c3a65db",
+      "time": "2026-11-27T02:07:13.587Z",
+      "note": "The subway redesigned from the two reference pictures: platforms and the turnstile hall",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
