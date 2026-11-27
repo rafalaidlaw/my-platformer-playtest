@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T12:20:31.219Z",
+  "updated": "2026-11-27T12:41:52.078Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-31c036e",
-      "time": "2026-11-27T12:20:31.219Z",
-      "note": "Content warning: words and the A's disc in E39C48",
+      "build": "rom-2bf500f",
+      "time": "2026-11-27T12:41:52.078Z",
+      "note": "City: the camera no longer drops to the bottom at the top of the map",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
