@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T04:50:19.489Z",
+  "updated": "2026-11-28T12:47:55.849Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-d6dc3b8",
+      "time": "2026-11-28T12:47:55.849Z",
+      "note": "Title pan: the faces now frame 'As far as my memory can be trusted. These stories are true.' instead of crossing it",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-050bc43",
-      "time": "2026-11-28T04:21:51.812Z",
-      "note": "Title pan: Rafa's faces rise instead of the green ghosts, thirteen different faces (from the ice, the cut-outs and the fog) in the ice's purples.",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
