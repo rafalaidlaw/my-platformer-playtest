@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-28T14:38:07.435Z",
+  "updated": "2026-11-28T15:10:18.681Z",
   "games": [
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
-      "build": "arc-1128",
-      "time": "2026-11-28T14:38:07.435Z",
-      "note": "The foot connector is an arc on the body's line, tucked under the chin",
+      "build": "arc-1128b",
+      "time": "2026-11-28T15:10:18.681Z",
+      "note": "The foot connector stops where the plain neck stops - no more overhang past a turn",
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web"
+      "source": "web export web2"
     },
     {
       "slug": "ghosts-of-faces",
