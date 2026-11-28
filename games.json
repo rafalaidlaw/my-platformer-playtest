@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T14:12:18.017Z",
+  "updated": "2026-11-28T14:38:07.435Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "arc-1128",
+      "time": "2026-11-28T14:38:07.435Z",
+      "note": "The foot connector is an arc on the body's line, tucked under the chin",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "foot-1127",
-      "time": "2026-11-28T04:50:19.489Z",
-      "note": "The connector bends down to the body where the person's foot lifts the head",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web"
     },
     {
       "slug": "my-platformer",
