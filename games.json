@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T16:58:33.607Z",
+  "updated": "2026-11-28T17:40:40.307Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-0cb8078",
+      "time": "2026-11-28T17:40:40.307Z",
+      "note": "Title pan quicker and even, the words in sooner; 'I've only ever glimpsed' centred",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp.gb",
       "source": "web export kcweb-out"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-f053c0c",
-      "time": "2026-11-28T16:34:06.279Z",
-      "note": "Title pan at one speed into the lamppost, quick cut; bridge words' band the sky's black; he walks on sooner",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
