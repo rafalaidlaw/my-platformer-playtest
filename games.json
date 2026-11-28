@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T02:06:36.325Z",
+  "updated": "2026-11-28T02:19:22.095Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-104727d",
+      "time": "2026-11-28T02:19:22.095Z",
+      "note": "Ghosts of Faces: street words pinned in a roof-brown band; no walking off the left edge; the pan slower through the note, with more small faces",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web4"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-a316e37",
-      "time": "2026-11-28T01:02:02.815Z",
-      "note": "Ghosts of Faces: break-testing fixes (subway, Start over words, crows, exorcism, car, Resume text, hidden player); height words fade in word by word",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
