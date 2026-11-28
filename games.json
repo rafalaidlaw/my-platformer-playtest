@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T12:47:55.849Z",
+  "updated": "2026-11-28T13:30:00.340Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-d6dc3b8",
-      "time": "2026-11-28T12:47:55.849Z",
-      "note": "Title pan: the faces now frame 'As far as my memory can be trusted. These stories are true.' instead of crossing it",
+      "build": "rom-260ccdd",
+      "time": "2026-11-28T13:30:00.340Z",
+      "note": "The faces round 'As far as my memory can be trusted' fade in and out, staggered; the wall's words set in the Nope 8 font (credited)",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
