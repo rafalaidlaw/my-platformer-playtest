@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T18:00:20.695Z",
+  "updated": "2026-11-28T18:33:13.148Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "neck-1128b",
+      "time": "2026-11-28T18:33:13.148Z",
+      "note": "Big Kota's neck halved: the slab of body drawn into his head reaches 4 px past his block instead of 8.",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp.gb",
+      "source": "web export kcweb-out"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "neck-1128",
-      "time": "2026-11-28T16:58:33.607Z",
-      "note": "The neck is worn only where it stands in for something: no connector sideways, where the jaw already meets the body, so turns leave no overhanging bar.",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp.gb",
-      "source": "web export kcweb-out"
     },
     {
       "slug": "my-platformer",
