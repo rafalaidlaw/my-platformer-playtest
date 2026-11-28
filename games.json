@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T15:44:59.398Z",
+  "updated": "2026-11-28T16:34:06.279Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-b806e71",
-      "time": "2026-11-28T15:44:59.398Z",
-      "note": "Bridge: the lines in the sky come and go as you walk, no A",
+      "build": "rom-f053c0c",
+      "time": "2026-11-28T16:34:06.279Z",
+      "note": "Title pan at one speed into the lamppost, quick cut; bridge words' band the sky's black; he walks on sooner",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
