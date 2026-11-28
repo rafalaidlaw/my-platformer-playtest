@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T02:19:22.095Z",
+  "updated": "2026-11-28T04:06:14.472Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-104727d",
-      "time": "2026-11-28T02:19:22.095Z",
-      "note": "Ghosts of Faces: street words pinned in a roof-brown band; no walking off the left edge; the pan slower through the note, with more small faces",
+      "build": "rom-ac8b5e3",
+      "time": "2026-11-28T04:06:14.472Z",
+      "note": "Chapter 2: either stairway puts you on the eastbound (bottom) platform, him across on the westbound (top) looking down at you. Also: Start/Select can no longer swallow a caption (chapter 6's last lift).",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
