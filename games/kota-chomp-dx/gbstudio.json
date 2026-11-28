@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rom": "rom/kotachomp-dx.gbc",
+  "rom": "rom/kotachomp.gb",
   "project": {
     "name": "kotachomp-dx",
     "author": "Rafa Laidlaw"
