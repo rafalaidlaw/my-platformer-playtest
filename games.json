@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T17:40:40.307Z",
+  "updated": "2026-11-28T18:00:20.695Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-0cb8078",
-      "time": "2026-11-28T17:40:40.307Z",
-      "note": "Title pan quicker and even, the words in sooner; 'I've only ever glimpsed' centred",
+      "build": "rom-9a4b6d0",
+      "time": "2026-11-28T18:00:20.695Z",
+      "note": "Chapter 1's card: Rafa's picture of the viaduct at dusk",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
