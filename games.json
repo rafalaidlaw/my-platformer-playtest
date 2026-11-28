@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T00:36:47.946Z",
+  "updated": "2026-11-28T01:02:02.815Z",
   "games": [
+    {
+      "slug": "ghosts-of-faces",
+      "title": "Ghosts of Faces",
+      "build": "rom-a316e37",
+      "time": "2026-11-28T01:02:02.815Z",
+      "note": "Ghosts of Faces: break-testing fixes (subway, Start over words, crows, exorcism, car, Resume text, hidden player); height words fade in word by word",
+      "path": "games/ghosts-of-faces/",
+      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
+      "source": "Ghosts of Faces.gbsproj"
+    },
     {
       "slug": "kota-chomp-dx",
       "title": "Kota Chomp DX",
@@ -10,16 +20,6 @@
       "path": "games/kota-chomp-dx/",
       "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
       "source": "web export web3"
-    },
-    {
-      "slug": "ghosts-of-faces",
-      "title": "Ghosts of Faces",
-      "build": "rom-46870b0",
-      "time": "2026-11-27T23:31:33.532Z",
-      "note": "Ghosts of Faces: every line of the script in the game; I get lost in the tunnels set into the maze's dark",
-      "path": "games/ghosts-of-faces/",
-      "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
-      "source": "Ghosts of Faces.gbsproj"
     },
     {
       "slug": "my-platformer",
