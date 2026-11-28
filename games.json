@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T15:10:58.187Z",
+  "updated": "2026-11-28T15:44:59.398Z",
   "games": [
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
-      "build": "rom-ba6cb61",
-      "time": "2026-11-28T15:10:58.187Z",
-      "note": "Chapter 1 on the Prince Edward Viaduct: left/right only, the subway under it, the lines in the black sky, into Broadview station",
+      "build": "rom-b806e71",
+      "time": "2026-11-28T15:44:59.398Z",
+      "note": "Bridge: the lines in the sky come and go as you walk, no A",
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
