@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-28T04:21:51.812Z",
+  "updated": "2026-11-28T04:50:19.489Z",
   "games": [
+    {
+      "slug": "kota-chomp-dx",
+      "title": "Kota Chomp DX",
+      "build": "foot-1127",
+      "time": "2026-11-28T04:50:19.489Z",
+      "note": "The connector bends down to the body where the person's foot lifts the head",
+      "path": "games/kota-chomp-dx/",
+      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
+      "source": "web export web"
+    },
     {
       "slug": "ghosts-of-faces",
       "title": "Ghosts of Faces",
@@ -10,16 +20,6 @@
       "path": "games/ghosts-of-faces/",
       "rom": "games/ghosts-of-faces/rom/ghosts-of-faces.gbc",
       "source": "Ghosts of Faces.gbsproj"
-    },
-    {
-      "slug": "kota-chomp-dx",
-      "title": "Kota Chomp DX",
-      "build": "neck-1127",
-      "time": "2026-11-28T02:06:36.325Z",
-      "note": "The head's own neck stands in for the body piece under it at the person's cells, so the body tile no longer covers the face among the legs",
-      "path": "games/kota-chomp-dx/",
-      "rom": "games/kota-chomp-dx/rom/kotachomp-dx.gbc",
-      "source": "web export web4"
     },
     {
       "slug": "my-platformer",
